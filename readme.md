@@ -18,3 +18,11 @@ For users interested in diving deeper, we have three more sets of documentation:
     mkdocs serve
 
 Now visit http://127.0.0.1:8000/ in your browser
+
+## To push to gh-pages
+
+    mkdocs gh-deploy
+
+Your new documentation will be available at
+
+    https://mapmanager.github.io/MapManager-Docs/

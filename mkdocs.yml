@@ -1,9 +1,9 @@
-site_name: MapManager Documentation
+site_name: MapManager
 site_description: Dendritic Spine Analysis
 site_author: Robert H Cudmore (plust others)
 
-repo_name: MapManager-Dev
-repo_url: https://github.com/mapmanager/MapManager-Dev
+repo_name: MapManager-Docs
+repo_url: https://github.com/mapmanager/MapManager-Docs
 edit_uri: ""
 
 theme:
@@ -21,8 +21,18 @@ watch:
 
 markdown_extensions:
   - pymdownx.superfences
+  # to allow tabs in markdown
   - pymdownx.tabbed:
       alternate_style: true
+  #
+  - admonition
+  - pymdownx.details
+  # allow links to open in a new tab, use [MapManagerCore Documentation](https://mapmanager.net/MapManagerCore/){target="_blank"}
+  - attr_list
+  # allows emojis, we will use this for icons to show links open in new tab
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
 plugins:
   - search
@@ -45,8 +55,7 @@ plugins:
             # show_root_heading: true
 
 nav:
-    - Getting Started: getting_started.md
-    - Interface: interface.md
+    - Getting Started: getting-started.md
     - Supported File Formats: supported-file-formats.md
     - API:
         - MapManager Core: mapmanagercore.md
