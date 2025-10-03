@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>https://mapmanager.net/</loc>
+         <loc>https://mapmanager.github.io/MapManager-Docs/</loc>
          <lastmod>2025-10-03</lastmod>
     </url>
     <url>
-         <loc>https://mapmanager.net/getting-started/</loc>
+         <loc>https://mapmanager.github.io/MapManager-Docs/getting-started/</loc>
          <lastmod>2025-10-03</lastmod>
     </url>
     <url>
-         <loc>https://mapmanager.net/interface/</loc>
+         <loc>https://mapmanager.github.io/MapManager-Docs/interface/</loc>
          <lastmod>2025-10-03</lastmod>
     </url>
     <url>
-         <loc>https://mapmanager.net/mapmanagercore/</loc>
+         <loc>https://mapmanager.github.io/MapManager-Docs/mapmanagercore/</loc>
          <lastmod>2025-10-03</lastmod>
     </url>
     <url>
-         <loc>https://mapmanager.net/supported-file-formats/</loc>
+         <loc>https://mapmanager.github.io/MapManager-Docs/supported-file-formats/</loc>
          <lastmod>2025-10-03</lastmod>
     </url>
 </urlset>
