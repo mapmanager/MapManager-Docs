@@ -13,11 +13,6 @@ hide:
         <p class="hero-subtitle">Longitudinal dendritic spine analysis</p>
       </div>
     </div>
-    <div class="hero-legacy-button">
-      <a href="https://mapmanager.net/mapmanager-igor" class="btn btn-legacy btn-small" target="_blank">
-        Legacy MapManager-Igor Documentation
-      </a>
-    </div>
   </div>
 </div>
 
@@ -100,6 +95,14 @@ hide:
       <h3>🔧 Developer Friendly</h3>
       <p>Open-source core with comprehensive API documentation</p>
     </div>
+  </div>
+</div>
+
+<div class="legacy-section">
+  <div class="legacy-content">
+    <a href="https://mapmanager.net/mapmanager-igor" class="btn btn-legacy" target="_blank">
+      <i class="fas fa-archive"></i> Legacy MapManager-Igor Documentation
+    </a>
   </div>
 </div>
 

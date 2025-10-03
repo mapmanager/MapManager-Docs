@@ -72,19 +72,15 @@ div.doc-contents:not(.first) {
   text-align: left;
 }
 
-.hero-legacy-button {
-  position: absolute;
-  top: 1rem;
-  right: 1rem;
+.legacy-section {
+  margin: 3rem 0;
+  text-align: center;
 }
 
-/* Mobile: stack below on small screens */
-@media (max-width: 768px) {
-  .hero-legacy-button {
-    position: static;
-    margin-top: 1.5rem;
-    text-align: center;
-  }
+.legacy-content {
+  max-width: 600px;
+  margin: 0 auto;
+}
 }
 
 /* Small button for corner placement */
