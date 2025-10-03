@@ -1,4 +1,4 @@
-Welcome to the MapMAnager user documentation.
+Welcome to the MapManager user documentation.
 
 This is intended for end users who want to use the desktop or web based apps.
 
