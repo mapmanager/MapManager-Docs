@@ -10,8 +10,8 @@ For users interested in diving deeper, we have three more sets of documentation:
 
  ## To edit the documentation locally
 
-    conda create -y -n mapmanager-docs python==3.11
-    conda activate mapmanager-docs
+    conda create -y -n mm-docs-env python==3.11
+    conda activate mm-docs-env
 
     pip install mkdocs mkdocs-material mkdocstrings-python
 
