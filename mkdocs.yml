@@ -3,8 +3,8 @@ site_description: Dendritic Spine Analysis
 site_author: Robert H Cudmore (plust others)
 
 # NEW: Tell MkDocs where the site lives
-#site_url: https://mapmanager.net/
-site_url: https://mapmanager.github.io/MapManager-Docs/
+site_url: https://mapmanager.net/MapManager-Docs/
+#site_url: https://mapmanager.github.io/MapManager-Docs/
 
 repo_name: MapManager-Docs
 repo_url: https://github.com/mapmanager/MapManager-Docs
