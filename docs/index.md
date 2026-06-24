@@ -24,7 +24,7 @@ This is a collection of software projects I work on.
 <img src="assets/mapmanager-icon.png" width="96" class="card-icon" alt="MapManager">
 </div>
 
-Longitudinal dendritic spine analysis with desktop, web, and Python backend.
+Next generation longitudinal dendritic spine analysis with desktop, web, and Python backend.
 
 [:octicons-mark-github-24: WebMapManager](https://github.com/mapmanager/WebMapManager){ .md-button }
 [:octicons-mark-github-24: PyMapManager](https://github.com/mapmanager/PyMapManager){ .md-button }
@@ -43,10 +43,11 @@ Longitudinal dendritic spine analysis with desktop, web, and Python backend.
 <img src="assets/cloudscope-icon.png" width="96" class="card-icon" alt="Cloudscope">
 </div>
 
-Image analysis for microscopy data with desktop, web, and scripting.
+Image analysis for microscopy data with desktop, web, and scripting. Specialized for line scan kymograph analysis of blood flow and diameter.
 
 [:octicons-mark-github-24: GitHub](https://github.com/mapmanager/cloudscope){ .md-button }
 [:octicons-book-24: Docs](https://mapmanager.github.io/cloudscope/){ .md-button }
+<span class="md-button md-button--placeholder" markdown="1">:octicons-mortar-board-24: Coming Soon!</span>
 
 </div>
 
@@ -56,13 +57,14 @@ Image analysis for microscopy data with desktop, web, and scripting.
 <div class="card-top-left">
 <div class="card-title"><strong>SanPy</strong></div>
 </div>
-<img src="assets/sanpy-icon-transparent.png" width="96" class="card-icon card-icon--light-bg" alt="SanPy">
+<img src="assets/sanpy-icon-v2.png" width="96" class="card-icon card-icon--light-bg" alt="SanPy">
 </div>
 
-SanPy is software for whole-cell current clamp analysis.
+Desktop and scripting software for whole-cell current clamp analysis.
 
 [:octicons-mark-github-24: GitHub](https://github.com/cudmore/SanPy){ .md-button }
 [:octicons-book-24: Docs](https://cudmore.github.io/SanPy/){ .md-button }
+[:octicons-mortar-board-24: PubMed](https://pubmed.ncbi.nlm.nih.gov/38419330/){ .md-button }
 
 </div>
 
@@ -79,6 +81,7 @@ Path-finding algorithms to find the brightest path between points in an image.
 
 [:octicons-mark-github-24: GitHub](https://github.com/mapmanager/brightest-path-lib){ .md-button }
 [:octicons-book-24: Docs](https://mapmanager.github.io/brightest-path-lib/){ .md-button }
+[:octicons-mortar-board-24: PubMed](https://pubmed.ncbi.nlm.nih.gov/37503184/){ .md-button }
 [:octicons-package-24: PyPI](https://pypi.org/project/brightest-path-lib/){ .md-button }
 
 </div>
@@ -96,6 +99,7 @@ A Raspberry Pi Controlled Experiment (PiE).
 
 [:octicons-mark-github-24: GitHub](https://github.com/cudmore/pie){ .md-button }
 [:octicons-book-24: Docs](https://cudmore.github.io/pie-doc/){ .md-button }
+[:octicons-mortar-board-24: PubMed](https://pubmed.ncbi.nlm.nih.gov/37583418/){ .md-button }
 
 </div>
 

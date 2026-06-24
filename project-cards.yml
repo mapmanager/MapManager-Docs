@@ -3,21 +3,23 @@
 # (MkDocs does not read this file automatically)
 
 - name: SanPy
-  description: SanPy is software for whole-cell current clamp analysis.
+  description: Desktop and scripting software for whole-cell current clamp analysis.
   github: https://github.com/cudmore/SanPy
   docs: https://cudmore.github.io/SanPy/
+  pubmed: https://pubmed.ncbi.nlm.nih.gov/38419330/
   live:
   icon: sanpy-icon.png
 
 - name: Cloudscope
-  description: Image analysis for microscopy data with desktop, web, and scripting.
+  description: Image analysis for microscopy data with desktop, web, and scripting. Specialized for line scan kymograph analysis of blood flow and diameter.
   github: https://github.com/mapmanager/cloudscope
   docs: https://mapmanager.github.io/cloudscope/
+  pubmed: Coming Soon!
   live: https://cloudscope.mapmanager.net/
   icon: cloudscope-icon.png
 
 - name: MapManager
-  description: Longitudinal dendritic spine analysis with desktop, web, and Python backend.
+  description: Next generation longitudinal dendritic spine analysis with desktop, web, and Python backend.
   github:
     WebMapManager: https://github.com/mapmanager/WebMapManager
     PyMapManager: https://github.com/mapmanager/PyMapManager
@@ -30,6 +32,7 @@
   description: Path-finding algorithms to find the brightest path between points in an image.
   github: https://github.com/mapmanager/brightest-path-lib
   docs: https://mapmanager.github.io/brightest-path-lib/
+  pubmed: https://pubmed.ncbi.nlm.nih.gov/37503184/
   live:
   pypi: https://pypi.org/project/brightest-path-lib/
   icon: brightest-path-lib-icon.gif
@@ -38,6 +41,7 @@
   description: A Raspberry Pi Controlled Experiment (PiE).
   github: https://github.com/cudmore/pie
   docs: https://cudmore.github.io/pie-doc/
+  pubmed: https://pubmed.ncbi.nlm.nih.gov/37583418/
   live:
   icon: pie-icon.png
 

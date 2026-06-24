@@ -111,6 +111,12 @@
   font-size: 0.85em;
 }
 
+.md-typeset .project-card .md-button--placeholder {
+  cursor: default;
+  opacity: 0.9;
+  pointer-events: none;
+}
+
 /* Compact custom footer */
 .md-copyright {
   font-size: 0.65rem;
