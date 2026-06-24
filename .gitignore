@@ -1,4 +1,24 @@
-__backup_20260624__
+# MkDocs build output
+site/
+
+# Local archive (not for git)
+__backup_20260624__/
+
+# Python / uv
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+
+# OS
 .DS_Store
+.AppleDouble
 
-
+# IDE
+.vscode/
+.idea/
+*.swp
+*~
