@@ -18,7 +18,10 @@
 
 - name: MapManager
   description: Longitudinal dendritic spine analysis with desktop, web, and Python backend.
-  github: https://github.com/mapmanager/PyMapManager
+  github:
+    WebMapManager: https://github.com/mapmanager/WebMapManager
+    PyMapManager: https://github.com/mapmanager/PyMapManager
+    MapManagerCore: https://github.com/mapmanager/MapManagerCore
   docs: https://mapmanager.github.io/
   live: https://mapmanager.github.io/WebMapManager/
   icon: mapmanager-icon.png

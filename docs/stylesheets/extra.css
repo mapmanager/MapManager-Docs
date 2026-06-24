@@ -27,31 +27,72 @@
   opacity: 0.85;
 }
 
-/* Two-column project grid on wider screens */
-.md-typeset .grid.cards {
+/* Project card grid (replaces mkdocs grid.cards for layout control) */
+.md-typeset .project-grid {
+  display: grid;
   grid-template-columns: repeat(2, 1fr);
+  gap: 0.8rem;
+  margin-top: 1rem;
 }
 
-/* Card title row: name then icon */
-.md-typeset .grid.cards li > p:first-child strong {
+.md-typeset .project-card {
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 0.2rem;
+  padding: 0.8rem 1rem;
+}
+
+/* Card top row: left = title (+ optional Web Demo), right = icon */
+.md-typeset .project-card .card-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 0.75rem;
+  margin-bottom: 0.5rem;
+}
+
+.md-typeset .project-card .card-top-left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.md-typeset .project-card .card-top-left:has(.card-demo) {
+  align-items: center;
+}
+
+.md-typeset .project-card .card-title strong {
   font-size: 1.5rem;
   font-weight: 600;
 }
 
-.md-typeset .grid.cards .card-icon {
-  vertical-align: middle;
-  margin-left: 0.5rem;
+.md-typeset .project-card .card-demo {
+  margin-top: 0.15rem;
+}
+
+.md-typeset .project-card .card-demo .md-button {
+  margin-top: 0;
+}
+
+.md-typeset .project-card .card-top .card-icon {
+  margin: 0;
+  flex-shrink: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .md-typeset .project-grid {
+    grid-template-columns: 1fr;
+  }
 }
 
 /* Light pad behind dark icons on dark theme (e.g. SanPy) */
-.md-typeset .grid.cards .card-icon--light-bg {
+.md-typeset .project-card .card-icon--light-bg {
   background-color: #c8c8c8;
   border-radius: 10px;
   padding: 8px;
 }
 
 /* Compact rounded buttons in project cards */
-.md-typeset .grid.cards .md-button {
+.md-typeset .project-card .md-button {
   padding: 0.2em 0.65em;
   font-size: 0.72rem;
   line-height: 1.3;
@@ -61,14 +102,8 @@
   margin-right: 0.35em;
 }
 
-.md-typeset .grid.cards .md-button .twemoji {
+.md-typeset .project-card .md-button .twemoji {
   font-size: 0.85em;
-}
-
-@media screen and (max-width: 768px) {
-  .md-typeset .grid.cards {
-    grid-template-columns: 1fr;
-  }
 }
 
 /* Compact custom footer */

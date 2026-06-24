@@ -12,56 +12,103 @@ This is a collection of software projects I have been working on.
 
 </div>
 
+<div class="project-grid" markdown>
 
-<div class="grid cards" markdown>
+<div class="project-card" markdown>
 
-<!-- MapManager -->
--   **MapManager** ![MapManager](assets/mapmanager-icon.png){ width="96" .card-icon }
+<div class="card-top">
+<div class="card-top-left">
+<div class="card-title"><strong>MapManager</strong></div>
+<div class="card-demo"><a href="https://mapmanager.github.io/WebMapManager/" class="md-button card-web-demo">Web Demo</a></div>
+</div>
+<img src="assets/mapmanager-icon.png" width="96" class="card-icon" alt="MapManager">
+</div>
 
-    Longitudinal dendritic spine analysis with desktop, web, and Python backend.
+Longitudinal dendritic spine analysis with desktop, web, and Python backend.
 
-    [:octicons-mark-github-24: GitHub](https://github.com/mapmanager/PyMapManager){ .md-button }
-    [:octicons-book-24: Docs](https://mapmanager.github.io/){ .md-button }
-    [:octicons-link-external-24: Web Demo](https://mapmanager.github.io/WebMapManager/){ .md-button }
+[:octicons-mark-github-24: WebMapManager](https://github.com/mapmanager/WebMapManager){ .md-button }
+[:octicons-mark-github-24: PyMapManager](https://github.com/mapmanager/PyMapManager){ .md-button }
+[:octicons-mark-github-24: MapManagerCore](https://github.com/mapmanager/MapManagerCore){ .md-button }
+[:octicons-book-24: Docs](https://mapmanager.github.io/){ .md-button }
 
-<!-- Cloudscope -->
--   **Cloudscope** ![Cloudscope](assets/cloudscope-icon.png){ width="96" .card-icon }
+</div>
 
-    Image analysis for microscopy data with desktop, web, and scripting.
+<div class="project-card" markdown>
 
-    [:octicons-mark-github-24: GitHub](https://github.com/mapmanager/cloudscope){ .md-button }
-    [:octicons-book-24: Docs](https://mapmanager.github.io/cloudscope/){ .md-button }
-    [:octicons-link-external-24: Web Demo](https://cloudscope.mapmanager.net/){ .md-button }
+<div class="card-top">
+<div class="card-top-left">
+<div class="card-title"><strong>Cloudscope</strong></div>
+<div class="card-demo"><a href="https://cloudscope.mapmanager.net/" class="md-button card-web-demo">Web Demo</a></div>
+</div>
+<img src="assets/cloudscope-icon.png" width="96" class="card-icon" alt="Cloudscope">
+</div>
 
-<!-- SanPy -->
--   **SanPy** ![SanPy](assets/sanpy-icon-transparent.png){ width="96" .card-icon .card-icon--light-bg }
+Image analysis for microscopy data with desktop, web, and scripting.
 
-    SanPy is software for whole-cell current clamp analysis.
+[:octicons-mark-github-24: GitHub](https://github.com/mapmanager/cloudscope){ .md-button }
+[:octicons-book-24: Docs](https://mapmanager.github.io/cloudscope/){ .md-button }
 
-    [:octicons-mark-github-24: GitHub](https://github.com/cudmore/SanPy){ .md-button }
-    [:octicons-book-24: Docs](https://cudmore.github.io/SanPy/){ .md-button }
+</div>
 
-<!-- Brightest Path Lib -->
--   **Brightest Path Lib** ![Brightest Path Lib](assets/brightest-path-lib-icon.gif){ width="192" .card-icon }
+<div class="project-card" markdown>
 
-    Path-finding algorithms to find the brightest path between points in an image.
+<div class="card-top">
+<div class="card-top-left">
+<div class="card-title"><strong>SanPy</strong></div>
+</div>
+<img src="assets/sanpy-icon-transparent.png" width="96" class="card-icon card-icon--light-bg" alt="SanPy">
+</div>
 
-    [:octicons-mark-github-24: GitHub](https://github.com/mapmanager/brightest-path-lib){ .md-button }
-    [:octicons-book-24: Docs](https://mapmanager.github.io/brightest-path-lib/){ .md-button }
+SanPy is software for whole-cell current clamp analysis.
 
-<!-- PiE -->
--   **PiE**
+[:octicons-mark-github-24: GitHub](https://github.com/cudmore/SanPy){ .md-button }
+[:octicons-book-24: Docs](https://cudmore.github.io/SanPy/){ .md-button }
 
-    A Raspberry Pi Controlled Experiment (PiE).
+</div>
 
-    [:octicons-mark-github-24: GitHub](https://github.com/cudmore/pie){ .md-button }
-    [:octicons-book-24: Docs](https://cudmore.github.io/pie-doc/){ .md-button }
+<div class="project-card" markdown>
 
-<!-- MapManager - Igor -->
--   **MapManager - Igor**
+<div class="card-top">
+<div class="card-top-left">
+<div class="card-title"><strong>Brightest Path Lib</strong></div>
+</div>
+<img src="assets/brightest-path-lib-icon.gif" width="192" class="card-icon" alt="Brightest Path Lib">
+</div>
 
-    Original Igor Pro version of MapManager for longitudinal image analysis.
+Path-finding algorithms to find the brightest path between points in an image.
 
-    [:octicons-book-24: Docs](https://mapmanager.github.io/){ .md-button }
+[:octicons-mark-github-24: GitHub](https://github.com/mapmanager/brightest-path-lib){ .md-button }
+[:octicons-book-24: Docs](https://mapmanager.github.io/brightest-path-lib/){ .md-button }
+
+</div>
+
+<div class="project-card" markdown>
+
+<div class="card-top">
+<div class="card-top-left">
+<div class="card-title"><strong>PiE</strong></div>
+</div>
+</div>
+
+A Raspberry Pi Controlled Experiment (PiE).
+
+[:octicons-mark-github-24: GitHub](https://github.com/cudmore/pie){ .md-button }
+[:octicons-book-24: Docs](https://cudmore.github.io/pie-doc/){ .md-button }
+
+</div>
+
+<div class="project-card" markdown>
+
+<div class="card-top">
+<div class="card-top-left">
+<div class="card-title"><strong>MapManager - Igor</strong></div>
+</div>
+</div>
+
+Original Igor Pro version of MapManager for longitudinal image analysis.
+
+[:octicons-book-24: Docs](https://mapmanager.github.io/){ .md-button }
+
+</div>
 
 </div>
