@@ -8,7 +8,7 @@ hide:
 
 # Robert H. Cudmore {.hero-title}
 
-This is a collection of software projects I have been working on.
+This is a collection of software projects I work on.
 
 </div>
 
@@ -79,6 +79,7 @@ Path-finding algorithms to find the brightest path between points in an image.
 
 [:octicons-mark-github-24: GitHub](https://github.com/mapmanager/brightest-path-lib){ .md-button }
 [:octicons-book-24: Docs](https://mapmanager.github.io/brightest-path-lib/){ .md-button }
+[:octicons-package-24: PyPI](https://pypi.org/project/brightest-path-lib/){ .md-button }
 
 </div>
 
@@ -88,6 +89,7 @@ Path-finding algorithms to find the brightest path between points in an image.
 <div class="card-top-left">
 <div class="card-title"><strong>PiE</strong></div>
 </div>
+<img src="assets/pie-icon.png" width="96" class="card-icon" alt="PiE">
 </div>
 
 A Raspberry Pi Controlled Experiment (PiE).
@@ -103,6 +105,7 @@ A Raspberry Pi Controlled Experiment (PiE).
 <div class="card-top-left">
 <div class="card-title"><strong>MapManager - Igor</strong></div>
 </div>
+<img src="assets/mapmanager-igor-icon.png" width="96" class="card-icon" alt="MapManager - Igor">
 </div>
 
 Original Igor Pro version of MapManager for longitudinal image analysis.

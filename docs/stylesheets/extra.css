@@ -36,8 +36,13 @@
 }
 
 .md-typeset .project-card {
-  border: 1px solid var(--md-default-fg-color--lightest);
-  border-radius: 0.2rem;
+  /* Borderless fill — revert to:
+     border: 1px solid var(--md-default-fg-color--lightest);
+     border-radius: 0.2rem;
+     (remove background line) */
+  border: none;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 0.75rem;
   padding: 0.8rem 1rem;
 }
 

@@ -31,6 +31,7 @@
   github: https://github.com/mapmanager/brightest-path-lib
   docs: https://mapmanager.github.io/brightest-path-lib/
   live:
+  pypi: https://pypi.org/project/brightest-path-lib/
   icon: brightest-path-lib-icon.gif
 
 - name: PiE
@@ -38,11 +39,11 @@
   github: https://github.com/cudmore/pie
   docs: https://cudmore.github.io/pie-doc/
   live:
-  icon:   # TODO add pie-icon.png to docs/assets/
+  icon: pie-icon.png
 
 - name: MapManager - Igor
   description: Original Igor Pro version of MapManager for longitudinal image analysis.
   github:
   docs: https://mapmanager.github.io/
   live:
-  icon:
+  icon: mapmanager-igor-icon.png
