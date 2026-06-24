@@ -6,37 +6,62 @@ hide:
 
 <div class="hero" markdown>
 
-![MapManager](assets/pymapmanager.png){ width="120" }
+# Robert H. Cudmore {.hero-title}
 
-# Robert H. Cudmore
-
-This is the main project page for Robert Cudmore. It is a collection of software
-projects I have been working on.
+This is a collection of software projects I have been working on.
 
 </div>
 
----
-
-## Projects
 
 <div class="grid cards" markdown>
 
--   :material-code-braces:{ .lg .middle } **Project Name**
+<!-- MapManager -->
+-   **MapManager** ![MapManager](assets/mapmanager-icon.png){ width="96" .card-icon }
 
-    ---
+    Longitudinal dendritic spine analysis with desktop, web, and Python backend.
 
-    Short description of the project. Replace with your text.
+    [:octicons-mark-github-24: GitHub](https://github.com/mapmanager/PyMapManager){ .md-button }
+    [:octicons-book-24: Docs](https://mapmanager.github.io/){ .md-button }
+    [:octicons-link-external-24: Web Demo](https://mapmanager.github.io/WebMapManager/){ .md-button }
 
-    [:octicons-mark-github-24: GitHub](https://github.com/mapmanager/example){ .md-button }
-    [:octicons-book-24: Docs](https://mapmanager.net/example/){ .md-button }
-    [:octicons-link-external-24: Live](https://example.com){ .md-button }
+<!-- Cloudscope -->
+-   **Cloudscope** ![Cloudscope](assets/cloudscope-icon.png){ width="96" .card-icon }
 
--   :material-code-braces:{ .lg .middle } **Another Project**
+    Image analysis for microscopy data with desktop, web, and scripting.
 
-    ---
+    [:octicons-mark-github-24: GitHub](https://github.com/mapmanager/cloudscope){ .md-button }
+    [:octicons-book-24: Docs](https://mapmanager.github.io/cloudscope/){ .md-button }
+    [:octicons-link-external-24: Web Demo](https://cloudscope.mapmanager.net/){ .md-button }
 
-    Short description of the project. Replace with your text.
+<!-- SanPy -->
+-   **SanPy** ![SanPy](assets/sanpy-icon-transparent.png){ width="96" .card-icon .card-icon--light-bg }
 
-    [:octicons-mark-github-24: GitHub](https://github.com/mapmanager/example2){ .md-button }
+    SanPy is software for whole-cell current clamp analysis.
+
+    [:octicons-mark-github-24: GitHub](https://github.com/cudmore/SanPy){ .md-button }
+    [:octicons-book-24: Docs](https://cudmore.github.io/SanPy/){ .md-button }
+
+<!-- Brightest Path Lib -->
+-   **Brightest Path Lib** ![Brightest Path Lib](assets/brightest-path-lib-icon.gif){ width="192" .card-icon }
+
+    Path-finding algorithms to find the brightest path between points in an image.
+
+    [:octicons-mark-github-24: GitHub](https://github.com/mapmanager/brightest-path-lib){ .md-button }
+    [:octicons-book-24: Docs](https://mapmanager.github.io/brightest-path-lib/){ .md-button }
+
+<!-- PiE -->
+-   **PiE**
+
+    A Raspberry Pi Controlled Experiment (PiE).
+
+    [:octicons-mark-github-24: GitHub](https://github.com/cudmore/pie){ .md-button }
+    [:octicons-book-24: Docs](https://cudmore.github.io/pie-doc/){ .md-button }
+
+<!-- MapManager - Igor -->
+-   **MapManager - Igor**
+
+    Original Igor Pro version of MapManager for longitudinal image analysis.
+
+    [:octicons-book-24: Docs](https://mapmanager.github.io/){ .md-button }
 
 </div>

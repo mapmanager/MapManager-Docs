@@ -1,0 +1,45 @@
+# Project cards — planning reference
+# Edit here, then copy changes into docs/index.md
+# (MkDocs does not read this file automatically)
+
+- name: SanPy
+  description: SanPy is software for whole-cell current clamp analysis.
+  github: https://github.com/cudmore/SanPy
+  docs: https://cudmore.github.io/SanPy/
+  live:
+  icon: sanpy-icon.png
+
+- name: Cloudscope
+  description: Image analysis for microscopy data with desktop, web, and scripting.
+  github: https://github.com/mapmanager/cloudscope
+  docs: https://mapmanager.github.io/cloudscope/
+  live: https://cloudscope.mapmanager.net/
+  icon: cloudscope-icon.png
+
+- name: MapManager
+  description: Longitudinal dendritic spine analysis with desktop, web, and Python backend.
+  github: https://github.com/mapmanager/PyMapManager
+  docs: https://mapmanager.github.io/
+  live: https://mapmanager.github.io/WebMapManager/
+  icon: mapmanager-icon.png
+
+- name: Brightest Path Lib
+  description: Path-finding algorithms to find the brightest path between points in an image.
+  github: https://github.com/mapmanager/brightest-path-lib
+  docs: https://mapmanager.github.io/brightest-path-lib/
+  live:
+  icon: brightest-path-lib-icon.gif
+
+- name: PiE
+  description: A Raspberry Pi Controlled Experiment (PiE).
+  github: https://github.com/cudmore/pie
+  docs: https://cudmore.github.io/pie-doc/
+  live:
+  icon:   # TODO add pie-icon.png to docs/assets/
+
+- name: MapManager - Igor
+  description: Original Igor Pro version of MapManager for longitudinal image analysis.
+  github:
+  docs: https://mapmanager.github.io/
+  live:
+  icon:

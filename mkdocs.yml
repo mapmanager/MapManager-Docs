@@ -2,26 +2,17 @@ site_name: MapManager
 site_url: https://mapmanager.net/
 site_description: Software projects by Robert H. Cudmore
 
-repo_name: MapManager-Docs
-repo_url: https://github.com/mapmanager/MapManager-Docs
+copyright: Copyright Robert H. Cudmore 2026 · robert.cudmore@gmail.com
+
+extra:
+  generator: false
 
 theme:
   name: material
-  features:
-    - navigation.top
   palette:
-    - scheme: slate
-      primary: indigo
-      accent: indigo
-      toggle:
-        icon: material/brightness-7
-        name: Switch to light mode
-    - scheme: default
-      primary: indigo
-      accent: indigo
-      toggle:
-        icon: material/brightness-4
-        name: Switch to dark mode
+    scheme: slate
+    primary: indigo
+    accent: indigo
 
 extra_css:
   - stylesheets/extra.css
@@ -35,8 +26,5 @@ markdown_extensions:
 
 nav:
   - Home: index.md
-
-plugins:
-  - search
 
 use_directory_urls: true

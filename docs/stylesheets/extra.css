@@ -1,11 +1,30 @@
+/* Hide header bar — portfolio landing page */
+.md-header {
+  display: none;
+}
+
+.md-main__inner {
+  margin-top: 0;
+}
+
 /* Hero block at top of landing page */
 .hero {
   text-align: center;
-  padding: 2rem 1rem 1rem;
+  padding: 1.25rem 1rem 0.5rem;
 }
 
-.hero img {
-  margin-bottom: 1rem;
+/* Style the name freely — keep # in markdown to suppress auto "Home" title */
+.hero .hero-title {
+  font-size: 1.75rem;
+  font-weight: 600;
+  margin: 0 0 0.35rem;
+  line-height: 1.2;
+}
+
+.hero p {
+  margin: 0;
+  font-size: 0.9rem;
+  opacity: 0.85;
 }
 
 /* Two-column project grid on wider screens */
@@ -13,8 +32,47 @@
   grid-template-columns: repeat(2, 1fr);
 }
 
+/* Card title row: name then icon */
+.md-typeset .grid.cards li > p:first-child strong {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.md-typeset .grid.cards .card-icon {
+  vertical-align: middle;
+  margin-left: 0.5rem;
+}
+
+/* Light pad behind dark icons on dark theme (e.g. SanPy) */
+.md-typeset .grid.cards .card-icon--light-bg {
+  background-color: #c8c8c8;
+  border-radius: 10px;
+  padding: 8px;
+}
+
+/* Compact rounded buttons in project cards */
+.md-typeset .grid.cards .md-button {
+  padding: 0.2em 0.65em;
+  font-size: 0.72rem;
+  line-height: 1.3;
+  min-height: unset;
+  border-radius: 999px;
+  margin-top: 0.25em;
+  margin-right: 0.35em;
+}
+
+.md-typeset .grid.cards .md-button .twemoji {
+  font-size: 0.85em;
+}
+
 @media screen and (max-width: 768px) {
   .md-typeset .grid.cards {
     grid-template-columns: 1fr;
   }
+}
+
+/* Compact custom footer */
+.md-copyright {
+  font-size: 0.65rem;
+  opacity: 0.75;
 }
